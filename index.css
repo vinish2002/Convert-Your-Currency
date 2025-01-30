@@ -11,6 +11,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
     backdrop-filter: blur(15px);
     font-family: "Audiowide", sans-serif;
 }
