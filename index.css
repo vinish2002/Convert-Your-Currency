@@ -54,8 +54,8 @@ body {
 .converter-container button {
     border: none;
     color: #fff;
-    background-color: #007bff;
     margin: 20px 0;
+    background-color: #007bff;
     cursor: pointer;
 }
 
