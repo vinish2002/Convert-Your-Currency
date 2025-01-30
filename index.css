@@ -7,12 +7,12 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-image: url('./assets/bg5.avif');
+    background-image: url('./assets/bg9.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
     font-family: "Audiowide", sans-serif;
 }
 
