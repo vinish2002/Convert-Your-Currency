@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./assets/bg2.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    backdrop-filter: blur(15px);
+    font-family: "Audiowide", sans-serif;
+}
+
+.converter-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #bebebe,
+        -5px -5px 10px #bebebe;
+    filter: drop-shadow(0 0 50px rgb(0, 0, 0));
+}
+
+.converter-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.converter-container input,
+.converter-container select,
+.converter-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.converter-container select:hover,
+.converter-container button:hover {
+    transform: scale(1.05);
+}
+
+.converter-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.converter-container button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
