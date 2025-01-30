@@ -17,8 +17,8 @@ body {
 .converter-container {
     width: 400px;
     padding: 20px;
-    background: #fff;
     border-radius: 10px;
+    background: #fff;
     text-align: center;
     box-shadow: 5px 5px 10px #bebebe,
         -5px -5px 10px #bebebe;
