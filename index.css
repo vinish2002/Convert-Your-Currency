@@ -66,6 +66,7 @@ body {
 }
 
 .result {
+    color: #008202;
     margin-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
