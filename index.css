@@ -50,10 +50,6 @@ body {
         transform: scale(1.05);
     }
 
-}
-
-.converter-container {
-
     button {
         border: none;
         color: #fff;
