@@ -35,20 +35,23 @@ body {
     letter-spacing: 1.5px;
 }
 
-.converter-container input,
-.converter-container select,
-.converter-container button {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-    transition: all 0.3s ease;
-}
+.converter-container {
 
-.converter-container select:hover,
-.converter-container button:hover {
-    transform: scale(1.05);
+    input,
+    select,
+    button {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        transition: all 0.3s ease;
+    }
+
+    select:hover,
+    button:hover {
+        transform: scale(1.05);
+    }
 }
 
 .converter-container {
