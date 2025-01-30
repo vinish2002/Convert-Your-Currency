@@ -53,6 +53,7 @@ body {
     button:hover {
         transform: scale(1.05);
     }
+
 }
 
 .converter-container {
