@@ -55,8 +55,8 @@ body {
     border: none;
     color: #fff;
     background-color: #007bff;
-    cursor: pointer;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .converter-container button:hover {
