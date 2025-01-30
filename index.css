@@ -17,7 +17,7 @@ body {
 
 .converter-container {
     width: 400px;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     border-radius: 10px;
     text-align: center;
     background: #fff;
@@ -54,6 +54,7 @@ body {
     color: #fff;
     border: none;
     cursor: pointer;
+    margin: 20px 0;
 }
 
 .converter-container button:hover {
