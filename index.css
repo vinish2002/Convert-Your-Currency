@@ -51,16 +51,18 @@ body {
     transform: scale(1.05);
 }
 
-.converter-container button {
-    border: none;
-    margin: 20px 0;
-    color: #fff;
-    background-color: #007bff;
-    cursor: pointer;
-}
+.converter-container {
+    button {
+        border: none;
+        margin: 20px 0;
+        color: #fff;
+        background-color: #007bff;
+        cursor: pointer;
+    }
 
-.converter-container button:hover {
-    background-color: #0056b3;
+    button:hover {
+        background-color: #0056b3;
+    }
 }
 
 .result {
